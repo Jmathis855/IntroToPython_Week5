@@ -12,6 +12,8 @@ Computing Skills for Biologists, Chapter 3 (Basic Programming), pgs. 81-119
 - One of the few languages where line indentation is actually interpreted as part of the code
 - Python is _much_ less picky than bash about spacing within lines, though
 - Dynamically typed (don't worry, we'll get to this later)
+- **does not need to be compiled bc it's an interpreted language, which leads to it being a little slower**
+- **other languages have issues with memory leaks, where you allocate a bit of memory to a portion of the program, which when done a bunch at the time can lead to issues. Python takes care of that for you.**
 
 ## Three Ways to Run Python
 
@@ -24,6 +26,7 @@ Computing Skills for Biologists, Chapter 3 (Basic Programming), pgs. 81-119
     - `print(a)`
 - What do you see?
 - To exit the Python interpreter, type `quit()`.
+- ctrl d or quit gets you out of it
 
 ### Python Scripts
 
@@ -59,6 +62,7 @@ Computing Skills for Biologists, Chapter 3 (Basic Programming), pgs. 81-119
       - `myStr[0]`
       - A range of indices can be defined with a colon
       - `myStr[2:5]`
+      -     inclusive of the first number, exclusive of the last
     - Strings can be concatenated together with the `+` operator.
       - `myStr = "biology"`
       - `newString = myStr + "_is_super_interesting"`
