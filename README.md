@@ -157,6 +157,7 @@ if <CONDITION>:
 - Note that the syntax for conditions is pretty intuitive in Python
     - `myStr != "other text"`
 - `if` statements can be used on their own, but no code will be executed when the condition is false.
+  *to test if something is not true, do != instead of the e*
 
 
 ## `if...else` statements
